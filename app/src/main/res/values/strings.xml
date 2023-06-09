@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AgeInMinutes</string>
+    <string name="heading_text">AGE CALCULATOR</string>
+    <string name="click_text">Click on the button to select your Date of Birth</string>
+    <string name="click_dob">DOB</string>
+    <string name="selected_dob">Selected date of birth</string>
+    <string name="age_in_minutes_is">Your age in minutes is</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:text="@string/heading_text"
+        android:textAlignment="center"
+        android:background="@color/primary_text_background_color"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/click_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
+        android:text="@string/click_text"
+        android:textAlignment="center"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dob_selector_button"
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/button_color"
+            android:text="@string/click_dob"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dob_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/selected_dob"
+            android:textAlignment="center"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/selected_dob"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/age_in_minutes_is"
+            android:textAlignment="center"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/result_age_text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
